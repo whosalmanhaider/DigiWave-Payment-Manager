@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
     }
 
     TextView t(String s,int size,int color){ TextView v=new TextView(this);v.setText(s);v.setTextSize(size);v.setTextColor(color);v.setPadding(0,6,0,6);return v; }
-    Button btn(String s){ Button b=new Button(this);b.setText(s);b.setTextAllCaps(false);return b; }
+    Button btn(String s){ Button b=new Button(this);b.setText(s);b.setAllCaps(false);return b; }
     EditText e(String hint){ EditText e=new EditText(this);e.setHint(hint);e.setPadding(8,18,8,18);return e; }
 
     void build(){
